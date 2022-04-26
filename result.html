@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+        #fruitResults {
+            background-color: aqua;
+            font-family: "Lato", sans-serif;
+            font-size: 24px;
+            padding: 20px;
+            padding-left: 200px;
+            padding-right: 200px;
+            display: inline-block;
+            text-align: center;
+            margin: 20px;
+            margin-top: 2%;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+    </style>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Post Office Information</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div>
+        <h1  style="color: white; display:flex; align-items: center; justify-content: center;">Fruit Nutrition Finder</h1>
+        <div id="fruitResults">
+       
+
+            <table>
+                <tr>
+                    <th>
+                        <h3>Genus of Fruit :</h3>
+                    </th>
+                    <th>
+                        <h3>{{ genus }}</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3>Name of Fruit :</h3>
+                    </th>
+                    <th>
+                        <h3>{{ name }}</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3>Carbohydrates in Fruit :</h3>
+                    </th>
+                    <th>
+                        <h3>{{ carbohydrates }}</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3>Protein in Fruit :</h3>
+                    </th>
+                    <th>
+                        <h3>{{ protein }}</h3>
+                    </th>
+                </tr>                
+                <tr>
+                    <th>
+                        <h3>Fat in Fruit :</h3>
+                    </th>
+                    <th>
+                        <h3>{{ fat }}</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3>Calories in Fruit :</h3>
+                    </th>
+                    <th>
+                        <h3>{{ calories }}</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3>Sugar in Fruit :</h3>
+                    </th>
+                    <th>
+                        <h3>{{ sugar }}</h3>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        </div>
+    </body>
+</html>
